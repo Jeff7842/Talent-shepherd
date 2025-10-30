@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="Img/web logo 2.png" />
+    <link rel="stylesheet" href="assets/Css/contact.css" />
+    <title>Contact Us | Talent Shepherd</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="LandingPage.html">
+              <img src="Img/logo 2.1.png" alt="logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="LandingPage.html">Home</a></li>
+          <li><a href="About Page.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="News.html">Latest News</a></li>
+          <li><button class="btn" onclick="location.href='contact.html';">Contact Us</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact-hero">
+      <div class="section__container">
+        <h1 class="section__header" style="color: var(--primary-color);">Get In Touch</h1>
+        <p class="section__description">
+          We're here to answer your questions and guide you through your immigration journey
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-container">
+      <div class="about-content">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 class="section__header1">Contact Information</h3>
+            
+            <a href="tel:+254729336026" class="big-contact-button">
+              <i class="ri-phone-fill"></i> Call Our Office
+            </a>
+            
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@talentshepherd.africa" class="big-contact-button1" >
+              <i class="ri-mail-fill"></i> Send Us an Email
+            </a>
+
+            <a href="https://wa.me/254729336026" class="big-contact-button2" >
+                <i class="ri-whatsapp-fill"></i> Send Us WhatsApp Message
+              </a>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="ri-map-pin-2-fill"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Our Location</h4>
+                <p>Room 14, Eden Plaza, Kasarani, Nairobi, Kenya</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="ri-time-fill"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Working Hours</h4>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="ri-customer-service-2-fill"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Emergency Support</h4>
+                <p>24/7 WhatsApp assistance available</p>
+                <a href="https://wa.me/254728145314">+254 728 145 314</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <h3 class="section__header1">Send Us a Message</h3>
+            <form id="contactForm" action="https://formsubmit.co/jeffersonkimotho42@gmail.com" method="POST">
+                
+              <input type="text" name="_honey" style="display:none">
+
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="phone">WhatsApp Number</label>
+                  <input type="tel" id="phone" name="phone number" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+                <!-- Hide Captcha and set response page -->
+                <input type="hidden" name="_captcha" value="false">
+              
+                <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+          </div>
+        </div>
+        
+        <div class="map-container" id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.8930350986775!2d36.89318757455784!3d-1.2193755987689825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f158bfcf98af3%3A0xbad9897efc504a1c!2sEDEN%20PLAZA!5e1!3m2!1sen!2ske!4v1744105372324!5m2!1sen!2ske"    allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    
+    <div class="success-message" id="successMessage">
+      <i class="ri-checkbox-circle-fill success-icon"></i>
+      <h2 class="success-text">Your Message has been sent successfully!</h2>
+      <p class="success-text">We will be in touch between 1-3 business days. Thank you!</p>
+    </div>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="About Page.html">About Us</a></li>
+            <li><a href="#">Why Us</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Partnership</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Categories</h4>
+          <ul class="footer__links">
+            <li><a href="services.html">Countries</a></li>
+            <li><a href="services.html">Residence</a></li>
+            <li><a href="services.html">Citizenship</a></li>
+            <li><a href="services.html">Real Estate</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +254728145314
+              </a>
+            </li>
+            <li>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@talentshepherd.africa">
+                <span><i class="ri-mail-fill"></i></span> info@talentshepherd.africa
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Kasarani,Nairobi. Kenya
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe Our Newsletter</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn1"><i class="ri-send-plane-fill"></i></button>
+          </form>
+          <p>Never miss an update & news to your email</p>
+        </div>
+      </div>
+      <div class="section__container footer__bar">
+        <a href="#" class="footer__logo">
+          <img src="Img/logo 2 text.png" alt="logo" />
+        </a>
+        <p>Copyright © 2025 Talent Shepherd. All rights reserved.</p>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/talent_shepherd/?hl=en"><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/JavaScript/main.js"></script>
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Show success message
+        document.getElementById('successMessage').classList.add('active');
+        
+        // Reset form
+        this.reset();
+        
+        // Hide success message after 10 seconds and refresh
+        setTimeout(function() {
+          document.getElementById('successMessage').classList.remove('active');
+          window.location.reload();
+        }, 4000);
+      });
+
+    </script>
+  </body>
+</html>
